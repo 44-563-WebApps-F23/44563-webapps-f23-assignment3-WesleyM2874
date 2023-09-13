@@ -58,7 +58,7 @@
         <a href="https://stackoverflow.com/questions/77100397/how-to-increment-int-up-down-based-on-upvote-downvote-form-submission"> PHP Snippet </a>
 
         <pre>
-            <?php
+            ?php
             if (isset($_POST['title']) && isset($_POST['username']) && isset($_POST['vote'])) {
                 $title = filter_var($_POST['title'], FILTER_SANITIZE_STRING);
                 $type = filter_var($_POST['type'], FILTER_SANITIZE_STRING);
